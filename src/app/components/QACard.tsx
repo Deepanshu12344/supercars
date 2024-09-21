@@ -15,7 +15,7 @@ const QACard = () => {
               <p className='text-gray-500'>{value.desc}</p>
                 </div>
               {/* Render the button */}
-              <div className='flex justify-between'>
+              <div className='flex justify-between items-center'>
               <Custombtn
                 text={value.button.text}
                 className={value.button.className}

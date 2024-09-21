@@ -6,12 +6,12 @@ export const QACards = [
             {desc:"Want to buy a new car for yourself within your budget",
              button:{
                 text:"Get Started",
-                className:"rounded-lg bg-black text-white text-sm  w-20 h-10",
+                className:"rounded-lg bg-black text-white text-sm  w-40 h-10",
                 disabled:false,
                 onClick:()=>{}
 
              },
-             icon:"/car-icon.png",
+             icon:"/112402871582985697.svg",
              iconclass:"w-30 h-20",
             }
         ]
@@ -22,13 +22,13 @@ export const QACards = [
             {desc:"Rent a car without the worry of insurance within your budget",
              button:{
                 text:"Get Started",
-                className:"rounded-lg bg-black text-white text-sm  w-20 h-10",
+                className:"rounded-lg bg-black text-white text-sm  w-40 h-10",
                 disabled:false,
                 onClick:()=>{}
 
              },
-             icon:"/phonecar-icon.jpg",
-             iconclass:"w-20 h-20",
+             icon:"/phonecar-icon.png",
+             iconclass:"w-[100px] h-[100px]",
             }
         ]
     },

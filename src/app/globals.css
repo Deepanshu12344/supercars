@@ -20,7 +20,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
-  @apply w-[240px] sm:w-[400px] md:w-[500px] lg:w-[540px] h-[45px] rounded-full bg-white ;
+  @apply w-[240px] sm:w-[400px] md:w-[500px] lg:w-[540px] h-[45px] rounded-full bg-white z-10 ;
 }
 .nav__links{
   @apply text-gray-500 flex justify-between  p-2 pl-6 pr-6
