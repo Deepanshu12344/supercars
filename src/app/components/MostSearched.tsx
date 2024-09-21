@@ -9,7 +9,7 @@ const MostSearched = () => {
   return (
     <div className="mb-20 text-gray-500">
       <p className="flex justify-center text-xl font-bold pb-10">Most Searched Cars</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {mostSearched.map((item, index) => (
           <div 
             key={index} 
@@ -60,7 +60,12 @@ const MostSearched = () => {
   );
 };
 
-const CarDetail = ({ icon, detail }) => (
+interface CarDetailProps {
+  icon: string;
+  detail: string | number; 
+}
+
+const CarDetail: React.FC<CarDetailProps> = ({ icon, detail }) => (
   <div className="flex items-center">
     <Image src={icon} alt="icon" width={20} height={20} className="mr-2" />
     {detail}
