@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Navbar from './Navbar'
 
 const Hero = () => {
   return (
@@ -8,9 +7,6 @@ const Hero = () => {
       <div className='hero__secondary'>
         <div className='title'>
           <p>Find Your Dream Car</p>
-        </div>
-        <div className='flex justify-center mt-14'>
-          <Navbar />
         </div>
         <Image 
             src="/main.png"
