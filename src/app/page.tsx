@@ -2,6 +2,7 @@ import BrowseType from "./components/BrowseType";
 import Hero from "./components/Hero";
 import MostSearched from "./components/MostSearched";
 import QACard from "./components/QACard";
+import WhyChoose from "./components/WhyChoose";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <QACard />
         <MostSearched />
       </div>
+        <WhyChoose />
     </div>
   );
 }

@@ -7,8 +7,9 @@ import Link from 'next/link';
 
 const MostSearched = () => {
   return (
-    <div className="mb-20 text-gray-500">
-      <p className="flex justify-center text-xl font-bold pb-10">Most Searched Cars</p>
+    <div className="mb-10 text-gray-500">
+      <p className="flex justify-center text-2xl font-bold pb-4">The Most Searched Cars</p>
+      <hr className='pb-5'></hr>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {mostSearched.map((item, index) => (
           <div 
